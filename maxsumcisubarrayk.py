@@ -12,7 +12,7 @@ def kaden(a):
 def maxSubarraySumCircular(a):
     allnegative=False
     l=0
-    for i in a:          #check for all negative array
+    for i in a:          #check for all negative
         if(i<0):
             l=l+1
         else:
