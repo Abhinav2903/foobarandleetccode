@@ -6,12 +6,6 @@ def busyStudent(startTime: [int], endTime: [int], queryTime: int) -> int:
         y=endTime[i]
         if(x<=queryTime and y>=queryTime):
             c+=1
-        # elif(x<=queryTime):
-            # if(y>=queryTime):
-                # c+=1
-        
-        # elif((y-x)>=queryTime  or y>=queryTime and x<= queryTime):
-            # c+=1
         
     return c
 
